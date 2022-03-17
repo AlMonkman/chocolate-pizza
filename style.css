@@ -61,20 +61,42 @@ hr{
 
 h1{
   font-family: 'Yellowtail', cursive;
-  font-size: 30px;
+  font-size: 40px;
   font-weight: bold;
 }
 
 h2{
   font-size: 60px;
   font-family: 'League Gothic', sans-serif;
-  margin-top: 60px;
+  margin-top: 10px;
+
 }
+
+
+#print {
+  float: right;
+  align-items: flex-end;
+   width: min-content; 
+  
+}
+
+
+#center{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+#choco{
+  display: inline;
+}
+
 
 #posted{
   font-size: small;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   color: lightgray;
+  
 }
 
 body{
@@ -88,14 +110,40 @@ main{
 
 #hero{
   width: 960px;
+  margin-bottom: 35px;
 }
 
 #list{
   width: 960px;
+  margin-top: 20px;
 }
 
 footer{
   width: 960px;
   margin: 0px auto 0px auto;
   display: flex;
+}
+.indent{
+  text-indent: 3%;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  font-size: large;
+  color: grey;
+}
+form{
+  background-image: url(img/list-bg.png);
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+  font-size: large;
+  padding: 40px 30px 20px 60px;
+  width: 960px;
+
+}
+form li{
+  margin-bottom: 10px;
+  font-size: larger;
+  color: rgba(55, 39, 39, 0.647); 
+  font-family: 'Patrick Hand', cursive;
+  font-weight: bolder;
 }
